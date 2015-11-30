@@ -1,12 +1,12 @@
 pkgname=cegui
 pkgver=0.8.4
 _tag=0-8-4
-pkgrel=10
+pkgrel=2
 pkgdesc="A free library providing windowing and widgets for graphics APIs/engines"
 arch=('x86_64')
 url="http://cegui.org.uk"
 license=("MIT")
-depends=('pcre' 'glew' 'expat' 'freetype2' 'libxml2' 'devil' 'freeglut' 'lua' 'silly')
+depends=('pcre' 'glew' 'expat' 'freetype2' 'libxml2' 'devil' 'freeglut' 'lua' 'tolua++' 'silly')
 makedepends=('cmake' 'python2' 'doxygen' 'ogre' 'gtk2' 'boost' 'irrlicht' 'glm' 'mesa' 'mercurial')
 optdepends=("python2: python bindings"
             "ogre: ogre module"
